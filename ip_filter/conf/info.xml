@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon version="0.2">
+    <title xml:lang="ko">글쓰기 ip 필터링 에드온</title>
+    <title xml:lang="en">document write ip filter</title>
+    <description xml:lagn="ko">
+        글쓰기의 권한을 ip 값에 따라서 제한합니다.
+    </description>
+    <description xml:lagn="ko">
+        Limits the permissions of writing according to the ip values.
+    </description>
+    <date>2020.**.**</date>
+    <verstion>1.0</verstion>
+    <author email_address="#" link="http://ghana369@gmail.com">
+        <name xml:lang="ko">Gamil</name>
+        <name xml:lang="en">Gamil</name>
+    </author>
+    <extra_vars>
+        <var name="user_ip" type="text">
+            <title xml:lang="ko">권한 부여할 IP(여러개 입력시 '/'로 구분)</title>
+            <title xml:lang="en">ip to grant permission to write</title>
+            <description xml:lagn="ko">글쓰기 권한을 부여할 ip</description>
+            <description xml:lagn="en">ip to grant permission to write</description>
+        </var>
+        <var name="msg" type="text">
+            <title xml:lang="ko">메세지</title>
+            <title xml:lang="en">message</title>
+            <description xml:lagn="ko">메세지</description>
+            <description xml:lagn="en">message</description>
+        </var>
+        <var name="msg_ip" type="text">
+            <title xml:lang="ko">ip를 못찾았을때 나오는 메세지</title>
+            <title xml:lang="en">not find ip</title>
+            <description xml:lagn="ko">ip를 못찾았을때 나오는 메세지</description>
+            <description xml:lagn="en">not find ip</description>
+        </var>
+    </extra_vars>
+</addon>
